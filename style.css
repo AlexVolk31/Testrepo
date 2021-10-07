@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-
+    display: flex;
+    flex-direction: column
     font-size: 15px;
     line-height: 1.6;
     background-color: #2B8CB4;
@@ -40,7 +41,6 @@ a {
 .header {
     width: 100%;
     padding: 20px 0px;
-    position: absolute;
     color: #fff;
 
 }
@@ -194,4 +194,10 @@ a {
     font-size: 30px;
     font-weight: 700;
     opacity: 0.3;
+}
+
+.wrapper {
+    width: 100%;
+    padding: 100px 0px;
+    color: #fff;
 }
