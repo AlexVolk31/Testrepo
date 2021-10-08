@@ -5,45 +5,85 @@
     <meta charset="UTF-8">
     <title>Necronomicon</title>
     <link rel="icon" type="image/gif/png" href="../../images/icon.png">
+    <link rel="stylesheet" href="../../style.css">
 </head>
 
-<body bgcolor="#E8F3FF">
-    <h1>Каталог</h1>
-    <div align=center>
-        <hr>
-        <a href="../../pages/about/aboutPage.html">Информация</a>
-        <a href="catalog.html">Каталог</a>
-        <a href="../../index.html">Главная</a>
-        <hr>
-    </div>
-    <center>
-        <p>
-        <table Cellpadding=1>
-            <tr align=center valign=top>
-                <td><a HREF="../../pages/Planet/PlanetPage.html">Планета</a></td>
-                <td><a HREF="../../pages/Jupiter/JupiterPage.html">Юпитер</a></td>
-                <td><a HREF="../../pages/Planet/PlanetPage.html">Восход</a></td>
-            </tr>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="#"><h1>Necronomicon</h1></a>
+                </div>
+                <nav>
+                    <a class="nav__link" href="../../index.html">Главная</a>
+                    <a class="nav__link" href="../../pages/about/aboutPage.html">О нас</a>
+                    <a class="nav__link active" href="#">Каталог</a>
+                    <a class="nav__link" href="#">Корзина</a>
+                </nav>
+            </div>
+        </div>
+    </header>
 
-            <tr align=center valign=bottom>
-                <td><a HREF="../../pages/Planet/PlanetPage.html">
-                        <IMG hspace=5 vspace=5 BORDER=0 SRC="../../pages/Planet/PlanetImage.jpg" width=400>
-                    </a></td>
-                <td><a HREF="../../pages/Jupiter/JupiterPage.html">
-                        <IMG hspace=5 vspace=5 BORDER=0 SRC="../../pages/Jupiter/JupiterImage.png" width=400>
-                    </a></td>
-                <td><a HREF="../../pages/Planet/PlanetPage.html">
-                        <IMG hspace=5 vspace=5 BORDER=0 SRC="../../pages/Voshod/VoshodImage.jpg" width=400>
-                    </a></td>
-            </tr>
-        </table>
-        </p>
 
-    </center>
-    <div>
-        <hr>
-        <p>aleks.volk.04@mail.ru</p>
-    </div>
+        <div class="container">
+            <div class="products">
+
+                <div class="product">
+                    <h2 class="product__name">Планета</h2>
+                    <div class="product__img">
+                        <img src="../../pages/Planet/PlanetImage.jpg" alt="Планета">
+                    </div>
+                    <div class="product__disc">
+                        Мотоцикл планета
+                    </div>
+                    <a href="../../pages/Planet/PlanetPage.html"><div class="product__btn">
+                        К товару
+                    </div></a>
+                </div>
+
+                <div class="product">
+                    <h2 class="product__name">Юпитер</h2>
+                    <div class="product__img">
+                        <img src="../../pages/Jupiter/JupiterImage.png" alt="Юпитер">
+                    </div>
+                    <div class="product__disc">
+                        Мотоцикл юпитер
+                    </div>
+                    <a href="../../pages/Jupiter/JupiterPage.html"><div class="product__btn">
+                        К товару
+                    </div></a>
+                </div>
+
+                <div class="product">
+                    <h2 class="product__name">Восход</h2>
+                    <div class="product__img">
+                        <img src="../../pages/Voshod/VoshodImage.jpg" alt="Восход">
+                    </div>
+                    <div class="product__disc">
+                        Мотоцикл планета
+                    </div>
+                    <a href="../../pages/Voshod/VoshodPage.html"><div class="product__btn">
+                        К товару
+                    </div></a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__contact">
+                        aleks.volk.04@mail.ru
+                    </div>
+                    <div class="footer__author">
+                        ©AlexVolk
+                    </div>
+                </div>
+            </div>
+        </footer>
 </body>
 
 </html>
